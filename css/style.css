@@ -1,8 +1,8 @@
 body {
 	/* background-color : Cornsilk; */
         background-color : WhiteSmoke;
-	font-family : Garamond;
-position: center;
+	font-family : Garamond-serif;
+
 }
 
 h1 {
@@ -18,21 +18,56 @@ table.menu {
 	height : 70px;
 }
 
-header, footer {
-	border-color : yellow;   
-	background-color : MediumSeaGreen;
-	border : 3px solid black;
-    padding-bottom :0px;
+header {
+	   
+	
+	/* border : 3px solid MediumBlue; */
+    border-top: solid;
+	border-bottom: solid;
 	padding-top : 0px;
 	margin-left : 0%;
 	margin-right : 0%;
 	width : 100%;
 }
 
+header, footer {
 
-#body {
-
-
+background-color : DarkSeaGreen;
 
 
 }
+
+
+
+
+
+
+footer {
+ 	border-width: 2px;
+	border-color: black;
+	border-top: solid;
+	border-bottom: solid;
+	min-height : 90px;
+	
+	
+	
+}
+
+
+
+
+
+
+#corps {
+
+width:700px;
+border-left: solid;
+border-right: solid;
+border-width: 80px;
+border-color: DarkSeaGreen;
+margin:auto;
+display:flex;
+min-height : 650px;
+
+
+
