@@ -1,46 +1,42 @@
 body {
 	/* background-color : Cornsilk; */
-        background-color : WhiteSmoke;
 	font-family : Garamond-serif;
-
+	display: block;
+	background-image:url(ocean-images.jpg);
+	background-attachment:fixed;
 }
 
 h1 {
-
-
-text-align: center;
-
+	text-align: center;
 }
+
 table.menu {
-	margin : auto;
+	margin : auto; 
 	border-spacing : 25px;
 	border : 0;
 	height : 70px;
 }
 
 header {
-	   
 	
 	/* border : 3px solid MediumBlue; */
     border-top: solid;
 	border-bottom: solid;
 	padding-top : 0px;
+	
 	margin-left : 0%;
 	margin-right : 0%;
 	width : 100%;
+	
 }
+
+
 
 header, footer {
 
-background-color : DarkSeaGreen;
-
-
+	background-color : DarkSeaGreen;
+	
 }
-
-
-
-
-
 
 footer {
  	border-width: 2px;
@@ -53,20 +49,23 @@ footer {
 	
 }
 
-
-
-
-
-
 #corps {
+	border: dotted;
+	width:700px;
+	/* background-color: Aquamarine ; */
+	margin:auto;
+	min-height : 650px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 
-width:600px;
-background-color: Aquamarine ;
+}
 
+.construction {
 
-margin:auto;
-
-min-height : 650px;
+font-size: 20px;
+color: red;
+text-align: center;
+margin-top: 200px;
 
 }
 
