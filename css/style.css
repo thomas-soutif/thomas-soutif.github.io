@@ -23,7 +23,7 @@ header {
     border-top: solid;
 	border-bottom: solid;
 	padding-top : 0px;
-	position: absolute;
+	
 	margin-left : 0%;
 	margin-right : 0%;
 	width : 100%;
@@ -57,7 +57,7 @@ footer {
 	min-height : 650px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-
+	
 }
 
 .construction {
