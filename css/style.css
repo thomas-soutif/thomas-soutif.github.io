@@ -53,7 +53,7 @@ footer {
 	border: dotted;
 	width:700px;
 	/* background-color: Aquamarine ; */
-	margin:auto;
+	margin:auto; 
 	min-height : 650px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -69,3 +69,31 @@ margin-top: 200px;
 
 }
 
+.titre1 {
+
+font-size: 25px;
+color: red;
+text-align: center;
+
+}
+
+.titre2 {
+
+
+font-size: 15px;
+color: blue;
+text-align: :auto;
+
+}
+
+.text_default {
+
+font-size: 14;
+
+
+
+
+
+
+
+}
