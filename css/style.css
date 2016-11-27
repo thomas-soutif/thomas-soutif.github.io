@@ -95,10 +95,8 @@ text-align: :auto;
 
 font-size: 14;
 
+}
 
-
-
-
-
-
+.center {
+	text-align:center;
 }
