@@ -15,7 +15,17 @@ a{
 }
 
 h1 {
+	font-size: 25px;
+	color: red;
 	text-align: center;
+}
+
+h2{
+
+	font-size: 15px;
+	color: #E4C138;
+	text-align: center;
+
 }
 
 table.menu {
@@ -71,6 +81,7 @@ footer {
 	margin-bottom: 10px;
 	color: white;
 	background-color: #131515;
+	
 }	
 
 .construction {
@@ -115,3 +126,9 @@ ul.liste {
 	text-align: center;
 }
 
+#img {
+ 
+	width: 70%;
+	margin: 100px;
+	margin-top: 20px;
+}
