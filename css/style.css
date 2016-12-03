@@ -101,18 +101,9 @@ text-align: center;
 
 }
 
-.titre2 {
-
-
-font-size: 15px;
-color: #E4C138;
-text-align: auto;
-
-}
-
 .text_default {
 
-font-size: 14;
+font-size: 14px;
 
 }
 
@@ -131,4 +122,19 @@ ul.liste {
 	width: 70%;
 	margin: 100px;
 	margin-top: 20px;
+}
+#img2{
+
+	float:left;
+	width: 30%;
+	margin-left: 50px;
+	margin-right: 40px;
+
+}
+
+#validator {
+
+	display: block;	
+	margin-left: auto;
+	margin-right: auto;
 }
