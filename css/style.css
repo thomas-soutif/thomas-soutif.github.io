@@ -116,6 +116,30 @@ ul.liste {
 	list-style-type: none;
 	text-align: center;
 }
+.formulaire input {
+
+	color: black;
+}
+.formulaire textarea {
+
+	width: 50%;
+	height: 100px;
+	
+}
+
+
+
+
+.nospace {
+
+
+	white-space: pre;
+}
+
+:focus
+{
+    background-color: blue;
+}
 
 #img {
  
