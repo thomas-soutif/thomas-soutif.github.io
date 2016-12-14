@@ -32,18 +32,40 @@ h2{
 
 table.menu {
 	margin : auto; 
-	border-spacing : 25px;
+	border-spacing : 30px;
 	border : 0;
 	height : 70px;
+	border-radius: 10px;
+	background-color: #272727;
+	
+}
+
+
+
+table.menu a:hover{
+	font-weight: bold;
+	background-color: #131515;
+	border-radius:30px;
+
+}
+
+.menu_active{
+
+	font-weight: bold;
+	background-color: #131515;
+	border-radius:30px;
+
+
+
 }
 
 header {
 	
 	/* border : 3px solid MediumBlue; */
-    border-top: solid;
+    	border-top: solid;
 	border-bottom: solid;
 	padding-top : 0px;
-	
+	height: 180px;
 	margin-left : 0%;
 	margin-right : 0%;
 	width : 100%;
