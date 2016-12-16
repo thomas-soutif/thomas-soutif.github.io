@@ -2,17 +2,17 @@
 <html lang="fr">
 <head>
 
-	<title> Site web de Thomas Soutif </title>
+	<title>Thomas Soutif </title>
 	<link id="pagestyle" rel="stylesheet" href="css/style.css"/>
 	<meta charset="utf-8"/>
 	<meta name="description" content="Site web de Thomas Soutif"/> 
-
+	<link rel="icon" type="image/png" href="css/logo-blanc.png" />
 </head>
 	
 <body>
 		
 	<header>
-		<h1> Thomas SOUTIF</h1>
+		<img id="logo" src="css/logo.png">
 		<table class="menu"> 
 				<tr>
 					<td><a href="index.html">Accueil</a></td>
@@ -25,23 +25,31 @@
 
 	<div id="corps">
 		
-		<p class="titre1">Contact</p>
-		<p class="center">(En cours de développement)</p>
+		<h1>Contact</h1>
+		
 		<br>
 		<p class="center">N'hessitez pas a laisser un message sur mon site afin de m'aider à l'améliorer ou tout simplement me faire part de ce que vous avez aimé !</p>
 		<br><br><br><br><br>
 		<div class="formulaire">
 
-			<form method="post" action="">
-			<p class="nospace"><label for="nom">Votre nom:         </label><input type="text" name="nom" id="nom" maxlength="20"  required /></p>
-		
-			<p class="nospace"><label for="prenom">Votre prénom :   </label><input type="text" name="prenom" id="prenom" maxlength="20" required /></p>
-			
-			<p class="nospace"><label for="note">Quel note donneriez vous au site ?  </label><input type="number" name="note" id="note" min="0" max="10"/></p>
-			<label for="message" >Votre message : </label><br><br>
-			<textarea name="message" id="message" required></textarea>
+			<form method="post" action="mailto:thomas.soutif@etu.univ-amu.fr">
 
-			<input type="submit" value="Envoyer" />
+				<label for="nom">Nom</label>
+				<input type="text" name="nom" id="nom" value=" " maxlength="20"  required />
+		
+				<label for="prenom">Prénom</label>
+				<input type="text" name="prenom" id="prenom" value=" " maxlength="20" required />
+
+				<br><br>
+
+				<label for="note">Quel note donneriez vous au site ?</label>
+				<input type="number" name="note" value=" " id="note" min="0" max="10"/>
+
+				<br>
+				<br>
+				<textarea name="message" id="message" required></textarea>
+				<br>
+				<button type="submit">Envoyer un mail</button>
 			</form>
 		</div>
 	</div>
