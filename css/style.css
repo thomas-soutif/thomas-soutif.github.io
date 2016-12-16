@@ -30,7 +30,8 @@ h1 {
 h2{
 
 	font-size: 15px;
-	color: #E4C138;
+	'color: #E4C138;'
+	color: #0489B1;
 	text-align: center;
 
 }
