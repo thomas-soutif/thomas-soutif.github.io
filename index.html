@@ -4,31 +4,36 @@
 <!-- Test -->
 
 	<title>Thomas Soutif </title>
-	<link id="pagestyle" rel="stylesheet" href="css/style.css"/>
+	<link id="pagestyle" rel="stylesheet" href="css/style.css" title="black"/>
+	<link id="pagestyle" rel="stylesheet" href="css/style2.css" title="happy"/>
+
 	<meta charset="utf-8"/>
 	<meta name="description" content="Site web de Thomas Soutif"/> 
 	<link rel="icon" type="image/png" href="css/logo-blanc.png" />
-
+	  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/bouton.js"></script>
+    <script type="text/javascript" src="scripts/script_css.js"></script>
 </head>
-	
-<body>
+<body onload="set_style_from_cookie()">	
+
 		
-	<header>
-		<img id="logo" src="css/logo.png">
-		<table class="menu" > 
-				<tr>
-					<td><a class="menu_active" href="index.html">Accueil</a></td>
-					<td><a href="membres.html">Les membres</a></td>
-					<td><a href="projet.html">Le projet IUT</a></td>
-					<td><a href="mes_projets.html">Mes Projets Personnels</a></td>
-					<td><a href="contact.html">Contact</a></td>
-				</tr>
-			</table>
+	<img id="logo" src="css/logo.png" />
+	<header>	
+		<ul class="menu" > 
+			
+			<li><a class="menu_active" href="index.html">Accueil</a></li>
+			<li><a href="membres.html">Les membres</a></li>
+			<li><a href="projet.html">Le projet IUT</a></li>
+			<li><a href="mes_projets.html">Mes Projets Personnels</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			
+		</ul>
 	</header>
+	
 
 	<section id="corps">
 		<h1>Bienvenue sur mon site !</h1>
-
+			
 		
 		<br><br><br><br>
 		<img id="img2" alt="photo de moi" src="css/thomas.jpg" />
@@ -41,6 +46,9 @@
 		
 	</section>
 	<footer>
+		
+		<input class="js" type="button" onclick="switch_style ('black');return false;" name="theme" value="Black Theme">
+		<input class="js" type="button" onclick="switch_style ('happy');return false;" name="theme" value="Happy Theme">
 		<p class="center">Novembre 2016</p>
 		<p>
         	<img id="validator"

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|PT+Sans');
+
+body {
+	background-color : #F7819F;
+	font-family : Garamond-serif;
+	display: block;
+	/*background-image:url(ocean-images.jpg);*/
+	background-attachment:fixed;
+	font-family:"PT Sans";
+}
+
+a{
+	text-decoration:none;
+	color: #E6E6E6; 
+}
+
+
+p {
+
+	 margin-left: 40px;
+	 margin-bottom:0px;
+	 margin-right: 0px;
+}
+
+h1 {
+	font-size: 25px;
+	color: #0101DF;
+	text-align: center;
+}
+
+h2{
+
+	font-size: 15px;
+	color: #0489B1;
+	text-align: center;
+
+}
+
+
+
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+	border-radius: 10px;
+	background-color: #FF0040;
+	position:fixed;
+}
+
+
+.menu li {
+
+
+
+
+	
+}
+
+.menu li a {
+
+
+	display: block;
+    text-align: center;
+    padding: 8px 16px;
+    
+
+
+}
+
+ul.menu a:hover{
+	font-weight: bold;
+	background-color: #F08080;
+	border-radius:30px;
+
+}
+
+
+
+
+#corps {
+	border: none;
+	width: 700px;
+	/* background-color: Aquamarine ; */
+	margin:auto; 
+	min-height : 650px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 0px black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+	background-color: orange;
+	
+}	
+
+input {
+	border-radius: 500px;
+    box-shadow: 4px 4px 0px blue;
+}
+
+footer {
+
+
+	text-align:center;
+}
+
+ul.liste {
+
+	list-style-type: none;
+	text-align: center;
+}
+
+.center {
+	text-align:center;
+}
+
+#img {
+ 	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+#img2{
+
+	float:left;
+	width: 30%;
+	margin-left: 50px;
+	margin-right: 40px;
+
+}
+
+#logo {
+
+
+
+	width: 15%;
+	position: fixed;
+	float: left;
+	margin-left: 0px ;
+	margin-top: 200px;
+	border-radius: 10px;
+
+}
+
+
+.imgMembre {
+
+	width: 30%;
+	margin-left: 40px;
+	float: left;	
+	
+	margin-right: 40px;
+
+
+
+}
+
+
+.formulaire input {
+
+	color: black;
+}
+.formulaire textarea {
+
+	width: 50%;
+	height: 100px;
+	
+}
+.formulaire button {
+
+	border-radius: 500px;
+    box-shadow: 4px 4px 0px blue;
+
+}
+
+.formulaire :focus {
+
+
+	background-color: #BDB3E0;
+}
+
+.formulaire {
+
+
+	text-align: center;
+}
+
+
+#validator {
+
+	display: block;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.icone {
+
+	width: 3%;
+
+
+}
+
