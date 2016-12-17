@@ -254,3 +254,11 @@ ul.livrable {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+#fleche {
+
+	float:right;
+	width: 5%;
+	margin-right: 10px;
+}

@@ -202,3 +202,9 @@ ul.liste {
 
 }
 
+#fleche {
+
+	float:right;
+	width: 5%;
+	margin-right: 10px;
+}
