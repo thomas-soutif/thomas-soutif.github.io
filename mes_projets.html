@@ -7,24 +7,25 @@
 	<link id="pagestyle" rel="stylesheet" href="css/style2.css" title="happy"/>
 	<meta charset="utf-8"/>
 	<meta name="description" content="Site web de Thomas Soutif"/> 
+	<meta name="keywords" content="HTML,CSS,JS"/>
 	<link rel="icon" type="image/png" href="css/logo-blanc.png" />	
 	<script type="text/javascript" src="scripts/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/bouton.js"></script>
-    <script type="text/javascript" src="scripts/script_css.js"></script>
+	<script type="text/javascript" src="scripts/bouton.js"></script>
+	<script type="text/javascript" src="scripts/script_css.js"></script>
 </head>
-	
+
 <body onload="set_style_from_cookie()">	
-		
+
 	<header>
 		<img id="logo" src="css/logo.png"> 
 		<ul class="menu" > 
-				
+
 			<li><a href="index.html">Accueil</a></li>
 			<li><a href="membres.html">Les membres</a></li>
 			<li><a href="projet.html">Le projet IUT</a></li>
 			<li><a class="menu_active" href="mes_projets.html">Mes Projets Personnels</a></li>
 			<li><a href="contact.html">Contact</a></li>
-				
+
 		</ul>
 	</header>
 
@@ -36,63 +37,59 @@
 		
 		
 		<ul class="liste">
-		<li><a href=#sokoban>Sokoban Zelda</a></li>
-		<li><a href=#pendu>Jeu du Pendu</a></li>
-		<li><a href=#bot>Bot pour Irc</a></li>
+			<li><a href=#sokoban>Sokoban Zelda</a></li>
+			<li><a href=#pendu>Jeu du Pendu</a></li>
+			<li><a href=#bot>Bot pour Irc</a></li>
 
-		 </ul>   
+		</ul>   
 
-		 <br>
-		 <br>
+		<br>
+		<br>
 
-		                   
+
 		<div id="sokoban">
 			<h2>
-			Sokoban Zelda - Terminé en version 4.0 </h2>	
+				Sokoban Zelda - Terminé en version 4.0 </h2>	
 
-			<p class="text_default">Développé en C avec la bibliothéque SDL. Le but du jeu est de déplacer des caisses pour les placer au bon endroit. Bien evidemment les levels deviennent de plus en plus dur !
-			<br></p>
+				<p class="text_default">Développé en C avec la bibliothéque SDL. Le but du jeu est de déplacer des caisses pour les placer au bon endroit. Bien evidemment les levels deviennent de plus en plus dur !
+					<br></p>
 
-		</div>
-
-
-		<div id="pendu">
-
-			<h2>
-			Jeu du Pendu - Terminé en version 2.0 </h2>
-
-			<p class="text_default">Développé en C avec les bibliothéques standars. Le jeu propose deux chois de difficultés : Un mod normal proposant les mots les plus courants du dictionnaire, et un mod difficile ressensant tout les noms communs, les verbes, et les conjugaisons de la langue française ! Un système de points à la fin permet de comparer les scores !
-			<br></p>
+				</div>
 
 
+				<div id="pendu">
 
-		</div>
+					<h2>
+						Jeu du Pendu - Terminé en version 2.0 </h2>
 
-		<div id="bot">
-
-		<h2>
-		Bot pour Irc</h2>
-
-		<p class="text_default">Irc est un protocole permettant de dialoguer en temps réel avec d'autres utilisateurs en se connectant avec un client. Le projet consiste à configurer un bot qui puisse intéragir avec les utilisateur. Le bot est codé en LUA. Il est basé sur un système de plugins, qui permet à un utilisateur de communiquer avec lui en tapant simplement "!" suivie de la commande. On peut ainsi lui demander de noter des choses, de faire jouer les utilisateurs, ou tout simplement demander des informations en tant réel. La seconde fonction de ce bot, plus compliqué à mettre en place, est d'avoir sa propre intelligence artificielle. Cette partie demande du temps , c'est pourquoi elle est peu développé. Si vous souhaitez participer financièrement au dévelopemment de ce projet, vous pouvez envoyer des dons d'un minimum de 100  €. (Je rigole haha).
-
-
-		</div>
+						<p class="text_default">Développé en C avec les bibliothéques standars. Le jeu propose deux chois de difficultés : Un mod normal proposant les mots les plus courants du dictionnaire, et un mod difficile ressensant tout les noms communs, les verbes, et les conjugaisons de la langue française ! Un système de points à la fin permet de comparer les scores !
+							<br></p>
 
 
 
-		
+						</div>
 
-	</section>
-	<footer>
+						<div id="bot">
 
-		<input class="js" type="button" onclick="switch_style ('black');return false;" name="theme" value="Black Theme">
-		<input class="js" type="button" onclick="switch_style ('happy');return false;" name="theme" value="Happy Theme">
-		<p class="center">Novembre 2016</p>
-		<p>
-        	<img id="validator"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="CSS Valide !" />
-		</p>
-	</footer>
-</body>
-</html>
+							<h2>
+								Bot pour Irc</h2>
+
+								<p class="text_default">Irc est un protocole permettant de dialoguer en temps réel avec d'autres utilisateurs en se connectant avec un client. Le projet consiste à configurer un bot qui puisse intéragir avec les utilisateur. Le bot est codé en LUA. Il est basé sur un système de plugins, qui permet à un utilisateur de communiquer avec lui en tapant simplement "!" suivie de la commande. On peut ainsi lui demander de noter des choses, de faire jouer les utilisateurs, ou tout simplement demander des informations en tant réel. La seconde fonction de ce bot, plus compliqué à mettre en place, est d'avoir sa propre intelligence artificielle. Cette partie demande du temps , c'est pourquoi elle est peu développé. Si vous souhaitez participer financièrement au dévelopemment de ce projet, vous pouvez envoyer des dons d'un minimum de 100  €. (Je rigole haha).
+
+
+								</div>
+
+							</section>
+							<footer>
+
+								<input class="js" type="button" onclick="switch_style ('black');return false;" name="theme" value="Black Theme">
+								<input class="js" type="button" onclick="switch_style ('happy');return false;" name="theme" value="Happy Theme">
+								<p class="center">Novembre 2016</p>
+								<p>
+									<img id="validator"
+									src="http://jigsaw.w3.org/css-validator/images/vcss"
+									alt="CSS Valide !" />
+								</p>
+							</footer>
+						</body>
+						</html>
