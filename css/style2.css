@@ -144,6 +144,10 @@ ul.liste {
 
 }
 
+.js  {
+	border-radius: 500px;
+    box-shadow: 4px 4px 0px blue;
+}
 
 .imgMembre {
 
