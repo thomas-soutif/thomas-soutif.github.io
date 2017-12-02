@@ -13,7 +13,21 @@
 	<script type="text/javascript" src="scripts/bouton.js"></script>
 	<script type="text/javascript" src="scripts/script_css.js"></script>
 </head>
-
+	
+<content>
+	<?php
+	try{
+	$bdd = new PDO('mysql:host=mysql-thomas-soutif.alwaysdata.net;dbname=thomas-soutif_website;charset=utf8', 'thomas-soutif', '1234',                     
+                        array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+	}
+	catch(Exeption $e){                                                                                                                  
+                        die('Erreur : ' . $e->getMessage());                                                                                         
+                }                
+	$reponse = $bdd->prepare('SELECT * FROM Personne WHERE Id=1')or die(print_r($bdd->errorInfo()));
+	$reponse->execute();
+?>
+</content>
+		
 <body onload="set_style_from_cookie()">	
 
 	<header>
@@ -36,7 +50,7 @@
 		<center><img id="img2" alt="photo de moi" src="css/P1140618.JPG" /></center>
 		<br><br>
 		<h2> Qui suis-je ?</h2>
-		<p>Je m'apelle Thomas Soutif, et j'étudie en deuxième année dans le département informatique sur le site d'Aix-Marseille.</p>
+		<p>Je m'apelle <?php echo($reponse['Prenom'].$reponse['Nom'] ) ?>, et j'étudie en deuxième année dans le département informatique sur le site d'Aix-Marseille.</p>
 
 		<h2>Le projet 4DEv</h2>
 		<p>Mon groupe et moi allons réaliser cette année un projet sous le nom de code "4DEv". Retrouvez en détail ce projet dans le menu.</p> 
